@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+
+<head>
+  <link rel='icon' type='image/png' href='tcba.png'>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">
+	<meta name="keywords" content="00:00:00, 00:00:00">
+	<meta name="description" content="">
+	<meta name="page_type" content="np-template-header-footer-from-plugin">
+	<title>The Code Blue App - Mobile</title>
+	<link rel="stylesheet" href="nicepage.css" media="screen">
+	<link rel="stylesheet" href="Page-4.css" media="screen">
+	<script class="u-script" type="text/javascript" src="jquery.js" defer="">
+	</script>
+	<script class="u-script" type="text/javascript" src="nicepage.js" defer="">
+	</script>
+	<meta name="generator" content="Nicepage 3.24.3, nicepage.com">
+	<link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+
+
+
+
+	<script type="application/ld+json">
+		{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": ""
+}
+	</script>
+	<meta name="theme-color" content="#478ac9">
+	<meta property="og:title" content="Page 4">
+	<meta property="og:type" content="website">
+</head>
+
+<body class="u-body">
+	<section class="u-clearfix u-section-1" id="sec-bdce">
+		<div class="u-align-left u-clearfix u-sheet u-sheet-1">
+			<div class="u-align-center u-container-style u-group u-palette-4-base u-shape-rectangle u-group-1">
+				<div class="u-container-layout u-container-layout-1">
+					<h2 class="u-text u-text-1">Code Timer</h2>
+				</div>
+			</div>
+			<div class="u-align-center u-container-style u-group u-palette-1-base u-shape-rectangle u-group-2">
+				<div class="u-container-layout u-container-layout-2">
+					<h1 class="u-text u-text-2" id='m1'>00:00:00</h1>
+				</div>
+			</div>
+			<a onclick='startTimer(); startTimer3(); startmessage();' class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">Start
+				Code</a>
+			<a onclick='endnorosc();' class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2">End
+				Code</a>
+			<a onclick='rosco()' class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3">Rosc
+				obtained</a>
+		</div>
+	</section>
+	<section class="u-clearfix u-section-2" id="sec-56d0">
+		<div class="u-clearfix u-sheet u-sheet-1">
+			<div class="u-container-style u-group u-shape-rectangle u-group-1">
+				<div class="u-container-layout u-valign-top u-container-layout-1">
+					<div class="u-align-center u-container-style u-group u-palette-4-base u-shape-rectangle u-group-2">
+						<div class="u-container-layout u-container-layout-2">
+							<h2 class="u-text u-text-1">Medication</h2>
+						</div>
+					</div>
+					<div class="u-align-center u-container-style u-group u-palette-1-base u-shape-rectangle u-group-3">
+						<div class="u-container-layout u-container-layout-3">
+							<h1 class="u-text u-text-2" id='s1'>00:00:00</h1>
+						</div>
+					</div>
+					<div class="u-align-center u-container-style u-group u-palette-4-base u-shape-rectangle u-group-4">
+						<div class="u-container-layout u-container-layout-4" id='b1'>
+							<h3 class="u-text u-text-3" id='t1'>Okay to administer medication </h3>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="u-container-style u-group u-shape-rectangle u-group-5">
+				<div class="u-container-layout u-container-layout-5">
+					<a onclick='s1reset("Epinephrine")' class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">
+					&zwnj; Epinephrine &zwnj; </a>
+					<a onclick='s1reset("Amiodarone")' class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-2">&zwnj; Amiodarone &zwnj; </a>
+					<a onclick='s1reset("Atropine")' class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-3">&zwnj; &zwnj;  Atropine &zwnj; &zwnj; </a>
+					<a onclick='s1reset("Adenosine")' class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-4">Adenosine</a>
+					<a onclick='s1reset("Lidocaine")' class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-5">&zwnj; &zwnj; Lidocaine &zwnj; &zwnj; </a>
+					<a onclick='s1reset("Other")' class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-6">&zwnj; &zwnj; Other &zwnj; &zwnj; <br>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="u-clearfix u-section-3" id="sec-9d36">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <div class="u-container-style u-group u-shape-rectangle u-group-1">
+          <div class="u-container-layout u-valign-top u-container-layout-1">
+            <div class="u-align-center u-container-style u-group u-palette-4-base u-shape-rectangle u-group-2">
+              <div class="u-container-layout u-container-layout-2">
+                <h2 class="u-text u-text-1">Pulse Check</h2>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-group u-palette-1-base u-shape-rectangle u-group-3">
+              <div class="u-container-layout u-container-layout-3">
+                <h1 class="u-text u-text-2" id='s2'>00:00:00</h1>
+              </div>
+            </div>
+            <div class="u-align-center u-container-style u-group u-palette-4-base u-shape-rectangle u-group-4">
+              <div class="u-container-layout u-container-layout-4" id='b2' style='background-color: #db545a'>
+                <h3 class="u-text u-text-3" id='t2' >Continue compressions at > 100 per minute</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a onclick='pulsecheck()' class="u-btn u-btn-round u-button-style u-hover-palette-1-light-1 u-palette-1-base u-radius-50 u-btn-1">Pulse Check Completed</a>
+      </div>
+    </section>
+    
+    <script src='script2.js'></script>
+  </body>
+</html>

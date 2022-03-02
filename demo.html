@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="en">
+	<head>
+		<title>The Code Blue App</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
+		<meta name="description" content="The Code Blue App" />
+		<meta property="og:site_name" content="The Code Blue App (copy)" />
+		<meta property="og:title" content="The Code Blue App (copy)" />
+		<meta property="og:type" content="website" />
+		<meta property="og:description" content="The Code Blue App" />
+		<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic" rel="stylesheet" type="text/css" />
+		<link rel="icon" type="image/png" href="assets/images/favicon.png" />
+		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png" />
+		<link rel="stylesheet" href="assets/main.css" />
+		<noscript><link rel="stylesheet" href="assets/noscript.css" /></noscript>
+	</head>
+	<body class="is-loading">
+		<div id="wrapper">
+			<div id="main">
+				<div class="inner">
+					<div id="container01" class="container columns">
+						<div class="wrapper">
+							<div class="inner">
+								<div>
+									<ul id="buttons03" class="buttons">
+										<li>
+											<a class="button n01" style="background-color: #2cccc4; height: 75px;" disabled>Code Timer</a>
+										</li><li>
+											<a class="button n02" disabled id='m1'>00:00:00</a>
+										</li><li>
+											<a class="button n03" style="background-color: #db545a" disabled>&nbsp;</a>
+										</li>
+									</ul>
+									<ul id="buttons01" class="buttons">
+										<li>
+											<a class="button n01" onclick="startTimer(); startTimer3(); startmessage();">Start Code</a>
+										</li><li>
+											<a class="button n02" onclick="endnorosc();">End Code</a>
+										</li><li>
+											<a class="button n03" onclick="rosco();">ROSC Obtained</a>
+										</li>
+									</ul>
+								</div>
+								<div>
+									<ul id="buttons05" class="buttons">
+										<li>
+											<a class="button n01" style="background-color: #2cccc4; height: 75px;">Medicine Timer</a>
+										</li><li>
+											<a class="button n02" id='s1'>00:00:00</a>
+										</li><li>
+											<a class="button n03" id='t1' style="font-size: 15px; background-color: #db545a;">Wait For Medication</a>
+										</li>
+									</ul>
+									<ul id="buttons02" class="buttons">
+										<li>
+											<a class="button n01" onclick='s1reset("Epinephrine")'>Epinephrine</a>
+										</li><li>
+											<a class="button n02" onclick='s1reset("Amiodarone")'>Amiodarone</a>
+										</li><li>
+											<a class="button n03" onclick='s1reset("Atropine")'>Atropine</a>
+										</li><li>
+											<a class="button n04" onclick='s1reset("Adenosine")'>Adenosine</a>
+										</li><li>
+											<a class="button n05" onclick='s1reset("Lidocaine")'>Lidocaine</a>
+										</li><li>
+											<a class="button n06" onclick='s1reset("Other Med")'>Other Med</a>
+										</li>
+									</ul>
+								</div>
+								<div>
+									<ul id="buttons04" class="buttons" stlye="word-wrap: break-word;">
+										<li>
+											<a class="button n01" style="background-color: #2cccc4; height: 75px;">Pulse Timer</a>
+										</li><li>
+											<a class="button n02" id='s2'>00:00:00</a>
+										</li><li stlye="word-wrap: break-word;">
+											<a class="button n03" id='t2' style="font-size: 10px; background-color: #db545a; word-wrap: break-word;">Continue Compressions</a>
+										</li>
+									</ul>
+									<ul id="buttons06" class="buttons">
+										<li>
+											<a class="button n01" onclick='pulsecheck();'>Pulse Checked</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="assets/main.js"></script>
+		<script src="assets/demoscript.js"></script>
+	</body>
+</html>
