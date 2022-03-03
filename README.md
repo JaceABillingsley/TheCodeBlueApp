@@ -2,6 +2,7 @@
 ### A Code Blue, When Every Second Counts
 ![image](https://user-images.githubusercontent.com/87834418/156397622-7fe2e2fc-0f01-432e-829f-1c2481428ab3.png)
 ----
+[thecodeblueapp.com](https://thecodeblueapp.com)
 ### What is The Code Blue App?
 The Code Blue App is a tool made for hospital staff to use during a code blue. This app helps them time the actions in a code blue to the American Heart Association's ® recommendations. It is simple to use and records the data needed for hospital records.
 ### What is a Code Blue?
@@ -12,6 +13,10 @@ This app was developed by Jace Billingsley for the Congressional App Challenge 2
 ----
 
 # Specifications
+
+### Frontend + Backend
+The Code Blue App's frontend is created in javascript. This runs the timers on the page, manages the data of the page, and more. 
+The Code Blue App's backend is an [expressjs](https://expressjs.com) webserver running on [Node.js](https://nodejs.org). These return the correct pages when accessing a webpage on [thecodeblueapp.com](https://thecodeblueapp.com)
 
 ### Features
 - The Code Blue App offers timers for medication and pulse checks. The default medications listed are: Epinepherine, Amiodarone, Atropine, Adenosine, and Lidocaine. Additionally, there is an "Other Med" button for medications not listed.
